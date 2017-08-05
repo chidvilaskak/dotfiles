@@ -1,0 +1,26 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- clean: ['~' , '~/.config']
+
+- link:
+    # ~/.dotfiles: ''
+    # ~/.emacs.d: anishathalye/dotfiles/emacs.d
+    # ~/.emacs: anishathalye/dotfiles/emacs
+    # ~/.gitconfig:
+    #~/.shell: anishathalye/dotfiles/shell
+    ~/.config/i3: config/i3
+    ~/.emacs.d:
+    ~/.emacs:
+    ~/.gitconfig:
+    ~/.gitignore_global:
+    ~/.shell: 
+    ~/.tmux.conf: tmux.conf
+    ~/.zsh: 
+    ~/.zshrc: 
+
+- shell:
+    - git submodule update --init --recursive
+  
