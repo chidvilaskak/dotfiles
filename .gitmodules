@@ -181,3 +181,6 @@
 [submodule "shell/plugins/dircolors-solarized"]
 	path = shell/plugins/dircolors-solarized
 	url = https://github.com/seebi/dircolors-solarized.git
+[submodule "emacs"]
+	path = emacs
+	url = https://github.com/chidvilaskak/emacs.git
